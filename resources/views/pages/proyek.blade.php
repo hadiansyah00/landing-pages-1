@@ -25,7 +25,8 @@
             <!-- Item 1 -->
             <div class="col-lg-4 col-md-6 portfolio-item residensial">
                 <div class="card shadow-sm">
-                    <img src="/images/portfolio/rumah1.jpg" class="card-img-top" alt="Desain Rumah Mewah 2 Lantai">
+                    <img src="{{ asset('dashboard_assets/assets/img/client/desain/desain-4.jpg') }}"
+                        class="card-img-top" alt="Desain Rumah Mewah 2 Lantai">
                     <div class="card-body">
                         <h5 class="card-title">Desain Rumah Mewah 2 Lantai</h5>
                         <p class="card-text">Gambar kerja lengkap AutoCAD untuk rumah di Bogor, termasuk denah, tampak,
@@ -37,7 +38,8 @@
             <!-- Item 2 -->
             <div class="col-lg-4 col-md-6 portfolio-item komersial">
                 <div class="card shadow-sm">
-                    <img src="/images/portfolio/kantor1.jpg" class="card-img-top" alt="Desain Kantor 3 Lantai">
+                    <img src="{{ asset('dashboard_assets/assets/img/client/desain/desain-2.jpg') }}"
+                        class="card-img-top" alt="Desain Rumah Mewah 2 Lantai">
                     <div class="card-body">
                         <h5 class="card-title">Desain Kantor 3 Lantai</h5>
                         <p class="card-text">Proyek desain dan gambar kerja kantor area komersial dengan struktur baja
@@ -49,7 +51,8 @@
             <!-- Item 3 -->
             <div class="col-lg-4 col-md-6 portfolio-item industri">
                 <div class="card shadow-sm">
-                    <img src="/images/portfolio/gudang1.jpg" class="card-img-top" alt="Site Plan dan Gudang Industri">
+                    <img src="{{ asset('dashboard_assets/assets/img/client/desain/desain-3.jpg') }}"
+                        class="card-img-top" alt="Desain Rumah Mewah 2 Lantai">
                     <div class="card-body">
                         <h5 class="card-title">Site Plan & Gudang Industri</h5>
                         <p class="card-text">Gambar layout dan utilitas untuk gudang skala menengah di kawasan industri

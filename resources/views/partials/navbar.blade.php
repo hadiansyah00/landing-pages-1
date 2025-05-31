@@ -9,7 +9,27 @@
                     <i class="tf-icons bx bx-menu bx-sm align-middle"></i>
                 </button>
                 <a href="{{ url('/') }}" class="app-brand-link">
-                    <img src="{{ asset('logo/logo_jasa.png') }}" alt="Logo" style="width: 200px; height: auto;" />
+                    <svg width="60" height="60" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="60" height="60" fill="#F3F4F6" />
+                        <!-- Rumah -->
+                        <path d="M50 120 L100 70 L150 120 V170 H50 V120 Z" fill="#3B82F6" stroke="#1E3A8A"
+                            stroke-width="4" />
+                        <!-- Atap -->
+                        <path d="M45 120 L100 65 L155 120" fill="none" stroke="#1E40AF" stroke-width="4" />
+                        <!-- Jendela -->
+                        <rect x="70" y="130" width="20" height="20" fill="#E0F2FE" stroke="#1E3A8A" stroke-width="2" />
+                        <rect x="110" y="130" width="20" height="20" fill="#E0F2FE" stroke="#1E3A8A" stroke-width="2" />
+                        <!-- Pena gambar -->
+                        <path d="M160 40 L180 60 L120 120 L100 120 L100 100 L160 40 Z" fill="#10B981" stroke="#065F46"
+                            stroke-width="3" />
+                        <!-- Nama jasa -->
+                        {{-- <text x="100" y="190" font-family="Arial, sans-serif" font-size="16" text-anchor="middle"
+                            fill="#111827">
+                            Estetikaland
+                        </text> --}}
+                    </svg>
+                    {{-- <img src="{{ asset('logo/logo_jasa.png') }}" alt="Logo" style="width: 200px; height: auto;" />
+                    --}}
                 </a>
             </div>
 

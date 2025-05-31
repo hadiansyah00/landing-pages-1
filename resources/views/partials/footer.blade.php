@@ -5,8 +5,26 @@
             <!-- Brand & Description -->
             <div class="col-lg-4 col-md-6">
                 <a href="#" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-                    <img src="dashboard_assets/img/logo/logo-footer.png" alt="Logo" height="40" />
-                    <span class="ms-2 fw-bold text-dark">Nama Website</span>
+                    <svg width="60" height="60" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="60" height="60" fill="#F3F4F6" />
+                        <!-- Rumah -->
+                        <path d="M50 120 L100 70 L150 120 V170 H50 V120 Z" fill="#3B82F6" stroke="#1E3A8A"
+                            stroke-width="4" />
+                        <!-- Atap -->
+                        <path d="M45 120 L100 65 L155 120" fill="none" stroke="#1E40AF" stroke-width="4" />
+                        <!-- Jendela -->
+                        <rect x="70" y="130" width="20" height="20" fill="#E0F2FE" stroke="#1E3A8A" stroke-width="2" />
+                        <rect x="110" y="130" width="20" height="20" fill="#E0F2FE" stroke="#1E3A8A" stroke-width="2" />
+                        <!-- Pena gambar -->
+                        <path d="M160 40 L180 60 L120 120 L100 120 L100 100 L160 40 Z" fill="#10B981" stroke="#065F46"
+                            stroke-width="3" />
+                        <!-- Nama jasa -->
+                        {{-- <text x="100" y="190" font-family="Arial, sans-serif" font-size="16" text-anchor="middle"
+                            fill="#111827">
+                            Estetikaland
+                        </text> --}}
+                    </svg>
+                    <span class="ms-2 fw-bold text-dark">Estetikaland</span>
                 </a>
                 <p class="text-muted">Website ini memberikan informasi dan layanan terbaik bagi pengguna, mahasiswa, dan
                     civitas akademika.</p>

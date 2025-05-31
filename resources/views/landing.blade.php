@@ -31,7 +31,8 @@
 <link rel="stylesheet" href="{{ asset('dashboard_assets/assets/css/demo.css') }}" />
 <link rel="stylesheet" href="{{ asset('dashboard_assets/assets/vendor/css/pages/front-page.css') }}" />
 
-
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <!-- Vendors CSS -->
 <link rel="stylesheet" href="{{ asset('dashboard_assets/assets/vendor/libs/nouislider/nouislider.css') }}" />
 <link rel="stylesheet" href="{{ asset('dashboard_assets/assets/vendor/libs/swiper/swiper.css') }}" />
@@ -123,6 +124,27 @@
     <!-- / Sections:End -->
     <!-- Footer: Start -->
     @include('partials.footer')
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+              new Swiper("#swiper-testimonials", {
+                loop: true,
+                spaceBetween: 24,
+                slidesPerView: 1,
+                autoplay: {
+                  delay: 4000, // Ganti angka (ms) sesuai kecepatan yang diinginkan
+                  disableOnInteraction: false, // Supaya autoplay tetap jalan meskipun user klik
+                },
+                navigation: {
+                  nextEl: "#testimonial-next-btn",
+                  prevEl: "#testimonial-prev-btn",
+                },
+                breakpoints: {
+                  768: { slidesPerView: 2 },
+                  1200: { slidesPerView: 2.5 },
+                }
+              });
+            });
+    </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
                 const filterButtons = document.querySelectorAll(".filter-btn");
